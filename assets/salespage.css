@@ -30,10 +30,17 @@ blockquote:after
 content: '\201D';
 }
   
-  
-    .index-section-separation-alternating-background .index-section.no-main-image.alt-section {
-    background-color: #F7EEE9!important;
+section:nth-child(even) {
+   background-color: #F7EEE9!important;
 }
+
+section:nth-child(even) .sqs-block-image .design-layout-overlap .image-title p {
+  color: #00163d;
+  background-color: #FFFCFA;
+  box-shadow: 0.2em 0 0 #FFFCFA, -0.2em 0 0 #FFFCFA;
+}
+
+
   h1:not(.site-title):not(.logo-image):not(.page-title), .entry-title {
     font-size: 75px;
 }
