@@ -70,7 +70,7 @@ section:nth-child(even)  .sqs-block-image .design-layout-overlap .image-title p 
     line-height: 1em!important;
 }
   
-.newslettertopblock, #headerNav, .related-title, #related, .p-comment, .pagination, #footer, .entry-header, .sharingcontainer, #motorwaytofluency, #fastlanetofluency, .sqs-announcement-bar {
+.newslettertopblock, .Header, #headerNav, .related-title, #related, .p-comment, .pagination, #footer, .entry-header, .sharingcontainer, #motorwaytofluency, #fastlanetofluency, .sqs-announcement-bar {
   display: none!important;
 }
   
